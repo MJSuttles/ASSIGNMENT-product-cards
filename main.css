@@ -1,0 +1,31 @@
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.card {
+  flex-basis: 33.333%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  border: solid 1px lightblue;
+  text-align: center;
+}
+
+.specifications {
+  font-weight: bold;
+}
+
+.availability {
+  background: darkgrey;
+  color: yellow;
+}
+
+h4 {
+  align-items: stretch;
+}
